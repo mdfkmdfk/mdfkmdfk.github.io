@@ -1,0 +1,29 @@
+.video-player{
+    margin: 8px;
+}
+.video-all{
+    margin: 8px;
+    background-color: darkgray;
+}
+ul.video-list{
+    list-style: none;
+    padding: 16px;
+    margin: 0;
+    border-radius: 12px;
+    overflow-y: scroll;
+}
+ul.video-list .video{
+    padding: 32px;
+    font-weight: bolder;
+    color: saddlebrown;
+    cursor: pointer;
+}
+@media (max-width: 767px){
+    .video-all .ratio_videolist{
+        padding-bottom: 0;
+    }
+    .video-all .ratio_videolist > .ratio_content{
+        position: static;
+        height: auto;
+    }
+}

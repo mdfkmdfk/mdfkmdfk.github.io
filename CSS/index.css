@@ -1,0 +1,9 @@
+section:nth-child(2n+1){
+    background-color: rgba(0, 0, 0, 0.08);
+}
+section:nth-child(n + 2){
+    padding: 16px;
+}
+.remove-padding{
+    padding: 0 !important;
+}

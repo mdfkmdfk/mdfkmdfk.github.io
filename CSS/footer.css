@@ -1,0 +1,19 @@
+footer{
+    background-color: burlywood;
+}
+footer .footer_contianer{
+    margin: 48px 0;
+}
+ul.footer_in{
+    color: white;
+}
+ul.footer_in > li{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media (max-width: 767px){
+footer .footer_contianer{
+        margin: 16px 0;
+    }
+}
